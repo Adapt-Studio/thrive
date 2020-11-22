@@ -5,7 +5,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 a {
   color: inherit;
@@ -16,27 +16,30 @@ a {
   box-sizing: border-box;
 }
 @layer base {
-	body {
- 	@apply bg-white;
-  	@apply dark:bg-black;
-  	@apply text-black;
-	@apply dark:text-white;
-	@apply font-body;
-	@apply leading-relaxed;
-	}
-	h1, h2, h3 {
-		@apply font-head;
-	}	
-	input, textarea {
-		@apply w-72;
-		@apply bg-green-100;
-		@apply font-body;
-		@apply text-white;
-		@apply text-center;
-		@apply rounded-md;
-		@apply shadow-md;
-	}
-	.form textarea {
-		@apply resize-none;
-	}
+  body {
+    @apply bg-white;
+    @apply dark:bg-black;
+    @apply text-black;
+    @apply dark:text-white;
+    @apply font-body;
+    @apply leading-relaxed;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-head;
+  }
+  input,
+  textarea {
+    @apply w-72;
+    @apply bg-green-100;
+    @apply font-body;
+    @apply text-white;
+    @apply text-center;
+    @apply rounded-md;
+    @apply shadow-md;
+  }
+  .form textarea {
+    @apply resize-none;
+  }
 }
