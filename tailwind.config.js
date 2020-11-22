@@ -2,7 +2,7 @@ module.exports = {
   purge: [],
   darkMode: 'media',
   theme: {
-	  colors {
+	  colors: {
           	white: "#ffffff",
 		black: "#181818",
 		green: {

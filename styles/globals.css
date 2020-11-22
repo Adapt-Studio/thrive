@@ -1,16 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
-
 a {
   color: inherit;
   text-decoration: none;
+  font-family: inherit;
 }
-
 * {
   box-sizing: border-box;
+}
+@layer base {
+	body {
+ 	@apply bg-white;
+  	@apply dark:bg-black;
+  	@apply text-black;
+	@apply dark:text-white;
+	@apply font-body;
+	@apply leading-relaxed;
+	}
+	h1, h2, h3 {
+		@apply font-head;
+	}	
+	input, textarea {
+		@apply w-72;
+		@apply bg-green-100;
+		@apply font-body;
+		@apply text-white;
+		@apply text-center;
+		@apply rounded-md;
+		@apply shadow-md;
+	}
+	.form textarea {
+		@apply resize-none;
+	}
 }
