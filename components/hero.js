@@ -33,7 +33,7 @@ export default function Hero() {
           <img className="w-32 h-32" src="/delivery/uber.png" alt="Uber Logo" />
         </a>
       </div>
-      <GhostBtn text="View Our Menu" url="#" />
+      <GhostBtn text="View Our Menu" url="https://cafethrive.co.uk/Content/files/menus/Southampton%20Thrive%20Menu.pdf" />
     </div>
   );
 }

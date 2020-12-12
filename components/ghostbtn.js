@@ -1,8 +1,8 @@
 export default function GhostBtn(props) {
   return (
-    <a href={props.url}>
+    <a rel="noopener noreferrer" target="_blank" href={props.url}>
       {" "}
-      <button className="bg-white dark:bg-black rounded-md shadow-md font-head text-2xl text-green-200 px-8 py-4">
+      <button className="px-8 py-4 text-2xl text-green-200 bg-white shadow-md dark:bg-black rounded-md font-head">
         {props.text}
       </button>
     </a>
