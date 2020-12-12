@@ -5,6 +5,7 @@ export default function Hero() {
       <div className="flex items-center justify-evenly space-x-4">
         <a
           rel="noreferrer noopener"
+          target="_blank"
           href="https://goodeats.io/cafethrivesouthampton"
         >
           <img
@@ -14,7 +15,8 @@ export default function Hero() {
           />
         </a>
         <a
-          rel="noopener noreferrer" target="_blank"
+          rel="noopener noreferrer"
+          target="_blank"
           href="https://deliveroo.co.uk/menu/southampton/southampton-city-centre/thrive-to-go"
         >
           <img
@@ -24,7 +26,8 @@ export default function Hero() {
           />
         </a>
         <a
-          rel="noopener noreferrer" target="_blank"
+          rel="noopener noreferrer"
+          target="_blank"
           href="https://www.ubereats.com/gb/portsmouth/food-delivery/cafe-thrive/ZfYxc2ObQamnhLKDsarq2A?utm_source=google&utm_medium=organic&utm_campaign=place-action-link"
         >
           <img className="w-32 h-32" src="/delivery/uber.png" alt="Uber Logo" />
