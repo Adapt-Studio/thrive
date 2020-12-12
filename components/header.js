@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/image"
 export default function () {
   return (
     <header className="w-screen h-24 flex justify-evenly items-end font-head text-2xl">
@@ -25,5 +25,5 @@ export default function () {
         </a>
       </nav>
     </header>
-  );
+  )
 }

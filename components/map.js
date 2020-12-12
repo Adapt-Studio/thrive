@@ -12,5 +12,5 @@ export default function Map() {
         marginwidth="0"
       ></iframe>
     </section>
-  );
+  )
 }

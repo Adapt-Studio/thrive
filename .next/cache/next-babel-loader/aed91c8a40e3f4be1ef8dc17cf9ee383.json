@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default function Gallery() {}","map":{"version":3,"sources":["/Users/machooper/Documents/Computing/Web/adapt/clients/thrive/components/gallery.js"],"names":["Gallery"],"mappings":"AAAA,eAAe,SAASA,OAAT,GAAmB,CACjC","sourcesContent":["export default function Gallery() {\n}\n"]},"metadata":{},"sourceType":"module"}

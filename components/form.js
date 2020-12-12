@@ -31,5 +31,5 @@ export default function Form() {
         Send
       </button>
     </form>
-  );
+  )
 }

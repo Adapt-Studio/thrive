@@ -1,22 +1,22 @@
-import Layout from "../components/layout";
-import Hero from "../components/hero";
-import Gallery from "../components/gallery";
-import Button from "../components/button";
-import Map from "../components/map";
-import Form from "../components/form";
+import Layout from "../components/layout"
+import Hero from "../components/hero"
+import Gallery from "../components/gallery"
+import Button from "../components/button"
+import Map from "../components/map"
+import Form from "../components/form"
 export default function Home() {
   return (
     <Layout>
       <Hero />
-      <section id="food" className="w-screen h-screen bg-green-100 pt-8">
+      <section id="food" className="w-screen h-screen pt-8 bg-green-100">
         <img
           className="w-32 h-24 mx-auto"
           src="/icons/open-blk.png"
           alt="Open Sign"
         />
-        <div className="w-5/6 h-5/6 flex justify-center space-x-16 items-center mx-auto font-thin">
+        <div className="flex items-center justify-center w-5/6 mx-auto font-thin h-5/6 space-x-16">
           <Gallery />
-          <div className="flex flex-col space-y-6 w-96 leading-relaxed text-xl text-white font-body">
+          <div className="flex flex-col text-xl leading-relaxed text-white space-y-6 w-96 font-body">
             <p>
               We’re a small business based in Southampton who believe good food
               shouldn’t cost the Earth.
@@ -37,36 +37,51 @@ export default function Home() {
       </section>
       <section
         id="order"
-        className="w-screen h-screen flex flex-col justify-evenly items-center relative"
+        className="relative flex flex-col items-center w-screen h-screen justify-evenly"
       >
         <h1 className="text-5xl">Feeling Hungry Yet?</h1>
         <div className="flex flex-col items-center space-y-8">
           <h2 className="text-3xl">We offer delivery + click and collect!</h2>
-          <Button text="Order Here" url="#" />
+          <Button
+            text="Order Here"
+            url="https://goodeats.io/cafethrivesouthampton"
+          />
         </div>
         <img
-          className="w-36 self-end mr-32 -my-16"
+          className="self-end mr-32 -my-16 w-36"
           src="/icons/coffee-blk.png"
           alt="Coffee Icon"
         />
         <div className="flex items-center space-x-3">
-          <img
-            className="w-32 h-32"
-            src="/delivery/deliveroo-sm.png"
-            alt="Deliveroo"
-          />
-          <img className="w-32 h-32" src="/delivery/uber-sm.png" alt="Uber" />
+          <a
+            rel="noreferrer noopener"
+            target="_blank"
+            href="https://deliveroo.co.uk/menu/southampton/southampton-city-centre/thrive-to-go"
+          >
+            <img
+              className="w-32 h-32"
+              src="/delivery/deliveroo-sm.png"
+              alt="Deliveroo"
+            />
+          </a>
+          <a
+            rel="noreferrer noopener"
+            target="_blank"
+            href="https://www.ubereats.com/gb/portsmouth/food-delivery/cafe-thrive/ZfYxc2ObQamnhLKDsarq2A?utm_source=google&utm_medium=organic&utm_campaign=place-action-link"
+          >
+            <img className="w-32 h-32" src="/delivery/uber-sm.png" alt="Uber" />
+          </a>
         </div>
       </section>
       <section
         id="times"
-        className="w-screen h-screen bg-green-100 text-white dark:text-black flex flex-col justify-evenly items-center"
+        className="flex flex-col items-center w-screen h-screen text-white bg-green-100 dark:text-black justify-evenly"
       >
-        <div className="flex flex-col items-center space-y-4 font-body font-thin">
+        <div className="flex flex-col items-center font-thin space-y-4 font-body">
           <h1 className="text-5xl">Our Opening Times</h1>
           <p>(During Covid-19)</p>
         </div>
-        <ul className="text-lg space-y-4 text-center font-thin font-body">
+        <ul className="text-lg font-thin text-center space-y-4 font-body">
           <li>Monday: 12:00pm to 8pm</li>
           <li>Tuesday: 12:00pm to 8pm</li>
           <li>Wednesday: 12:00pm to 8pm</li>
@@ -79,11 +94,11 @@ export default function Home() {
       <Map />
       <section
         id="contact"
-        className="w-screen h-screen flex flex-col justify-evenly items-center bg-green-100 text-white"
+        className="flex flex-col items-center w-screen h-screen text-white bg-green-100 justify-evenly"
       >
         <h1 className="text-5xl">Contact Us</h1>
         <Form />
       </section>
     </Layout>
-  );
+  )
 }

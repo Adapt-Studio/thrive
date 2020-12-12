@@ -6,5 +6,5 @@ export default function GhostBtn(props) {
         {props.text}
       </button>
     </a>
-  );
+  )
 }

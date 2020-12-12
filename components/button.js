@@ -5,5 +5,5 @@ export default function Button(props) {
         {props.text}
       </button>
     </a>
-  );
+  )
 }
