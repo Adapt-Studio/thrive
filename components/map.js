@@ -1,15 +1,15 @@
 export default function Map() {
   return (
-    <section className="w-screen h-screen flex justify-center items-center">
+    <section className="flex items-center justify-center w-screen h-screen">
       <iframe
         width="85%"
         height="80%"
         id="gmap_canvas"
         src="https://maps.google.com/maps?q=Cafe%20Thrive&t=&z=13&ie=UTF8&iwloc=&output=embed"
-        frameborder="0"
+        frameBorder="0"
         scrolling="no"
-        marginheight="0"
-        marginwidth="0"
+        marginHeight="0"
+        marginWidth="0"
       ></iframe>
     </section>
   )
