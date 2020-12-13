@@ -8,15 +8,15 @@ export default function Home() {
   return (
     <Layout>
       <Hero />
-      <section id="food" className="w-screen h-screen pt-8 bg-green-100">
+      <section id="food" className="w-screen py-8 bg-green-100 md:h-screen">
         <img
-          className="w-32 h-24 mx-auto"
+          className="w-32 h-24 mx-auto mb-8 md:mb-0"
           src="/icons/open-blk.png"
           alt="Open Sign"
         />
-        <div className="flex items-center justify-center w-5/6 mx-auto font-thin h-5/6 space-x-16">
+        <div className="flex flex-col items-center justify-center w-5/6 mx-auto font-thin md:flex-row md:h-5/6 md:space-x-16">
           <Gallery />
-          <div className="flex flex-col text-xl leading-relaxed text-white space-y-6 w-96 font-body">
+          <div className="flex flex-col mt-8 text-xl leading-relaxed text-white space-y-6 md:w-11/12 md:w-96 font-body md:mt-0">
             <p>
               We’re a small business based in Southampton who believe good food
               shouldn’t cost the Earth.
@@ -37,18 +37,19 @@ export default function Home() {
       </section>
       <section
         id="order"
-        className="relative flex flex-col items-center w-screen h-screen justify-evenly"
+        className="relative flex flex-col items-center w-screen h-screen text-center justify-evenly md:text-left"
       >
         <h1 className="text-5xl">Feeling Hungry Yet?</h1>
-        <div className="flex flex-col items-center space-y-8">
-          <h2 className="text-3xl">We offer delivery + click and collect!</h2>
+        <div className="flex flex-col items-center text-center space-y-8">
+          <h2 className="text-2xl">We offer delivery + click and collect!</h2>
           <Button
             text="Order Here"
             url="https://goodeats.io/cafethrivesouthampton"
           />
         </div>
         <img
-          className="self-end mr-32 -my-16 w-36"
+          id="coffee"
+          className="self-end mr-32 md:-my-16 w-36"
           src="/icons/coffee-blk.png"
           alt="Coffee Icon"
         />
@@ -59,7 +60,7 @@ export default function Home() {
             href="https://deliveroo.co.uk/menu/southampton/southampton-city-centre/thrive-to-go"
           >
             <img
-              className="w-32 h-32"
+              className="delivery"
               src="/delivery/deliveroo-sm.png"
               alt="Deliveroo"
             />
@@ -69,7 +70,7 @@ export default function Home() {
             target="_blank"
             href="https://www.ubereats.com/gb/portsmouth/food-delivery/cafe-thrive/ZfYxc2ObQamnhLKDsarq2A?utm_source=google&utm_medium=organic&utm_campaign=place-action-link"
           >
-            <img className="w-32 h-32" src="/delivery/uber-sm.png" alt="Uber" />
+            <img className="delivery" src="/delivery/uber-sm.png" alt="Uber" />
           </a>
         </div>
       </section>
@@ -78,7 +79,7 @@ export default function Home() {
         className="flex flex-col items-center w-screen h-screen text-white bg-green-100 dark:text-black justify-evenly"
       >
         <div className="flex flex-col items-center font-thin space-y-4 font-body">
-          <h1 className="text-5xl">Our Opening Times</h1>
+          <h1 className="text-5xl text-center">Our Opening Times</h1>
           <p>(During Covid-19)</p>
         </div>
         <ul className="text-lg font-thin text-center space-y-4 font-body">

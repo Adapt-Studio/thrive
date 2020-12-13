@@ -1,6 +1,6 @@
 export default function Form() {
   return (
-    <form className=".form w-96 flex flex-col items-center space-y-4 text-white">
+    <form className="form w-96 flex flex-col items-center space-y-4 text-white">
       <input
         className="py-2 placeholder-white"
         type="name"
@@ -26,7 +26,7 @@ export default function Form() {
       />
       <button
         type="submit"
-        className="bg-green-200 text-black dark:text-white hover:text-white dark:hover:text-black rounded-md shadow-md font-head text-2xl px-16 py-4"
+        className="px-16 py-4 text-2xl text-black bg-green-200 shadow-md dark:text-white hover:text-white dark:hover:text-black rounded-md font-head"
       >
         Send
       </button>

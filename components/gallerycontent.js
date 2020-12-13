@@ -4,6 +4,7 @@ import Slider from "react-slick"
 export default class SimpleSlider extends Component {
   render() {
     const settings = {
+      arrows: false,
       dots: true,
       infinite: true,
       autoplay: true,
