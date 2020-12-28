@@ -26,9 +26,12 @@ export default function Button(props) {
       >
         {props.text}
         <style jsx>{`
+          button {
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+          }
           @media (prefers-color-scheme: dark) {
-            button {
-              box-shadow: 0 4px 6px -1px rgba(255, 255, 255, 0.1), 0 2px 4px -1px rgba(255, 255, 255, 0.6);
+             button {
+              box-shadow: 2px 2px rgba(255,255,255,0.6)
             }
           }
         `}</style>

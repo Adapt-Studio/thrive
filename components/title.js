@@ -21,7 +21,7 @@ export default function Title({text}) {
             hidden: { opacity: 0, y: 10 },
           }}
           transition={{ duration: 0.4 }}
-          className="text-5xl"
+          className="text-7xl dark:text-white"
         >
           {text}
         </motion.h1>

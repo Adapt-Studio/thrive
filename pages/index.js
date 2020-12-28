@@ -36,7 +36,7 @@ export default function Home() {
       </section>
       <section
         id="order"
-        className="relative flex flex-col items-center w-screen h-screen text-center justify-evenly md:text-left"
+        className="relative flex flex-col items-center w-screen h-screen justify-start text-center md:text-left md:justify-center md:space-y-16"
       >
         <div className="flex flex-col items-center text-center space-y-8">
           <Title text="Feeling Hungry Yet"/>
@@ -84,7 +84,7 @@ export default function Home() {
             (During Covid-19)
           </motion.p>
         </div>
-        <ul className="text-lg font-thin text-center space-y-4 font-body">
+        <ul className="text-2xl font-thin text-center space-y-4 font-body">
           <motion.li
             ref={ref}
             animate={controls}

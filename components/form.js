@@ -2,19 +2,19 @@ export default function Form() {
   return (
     <form className="form w-96 flex flex-col items-center space-y-4 text-white">
       <input
-        className="py-2 placeholder-white"
+        className="py-4 placeholder-white"
         type="name"
         name="name"
         placeholder="Name"
       />
       <input
-        className="py-2 placeholder-white"
+        className="py-4 placeholder-white"
         type="email"
         name="email"
         placeholder="Email"
       />
       <input
-        className="py-2 placeholder-white"
+        className="py-4 placeholder-white"
         type="number"
         name="phone"
         placeholder="Phone Number"

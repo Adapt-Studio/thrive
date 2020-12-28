@@ -21,7 +21,7 @@ export default function Sub({text}) {
               hidden: { opacity: 0, y: 10 },
             }}
             transition={{ duration: 0.4 }}
-            className="text-2xl"
+            className="text-3xl dark:text-white"
           >
 
           {text}
