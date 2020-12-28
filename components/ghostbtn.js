@@ -9,7 +9,7 @@ export default function GhostBtn(props) {
           opacity: [0, 1],
         }}
         transition={{ duration: 0.4 }}
-        className="px-8 py-4 text-2xl text-green-200 bg-white shadow-md dark:bg-black rounded-md font-head"
+        className="px-8 py-4 text-2xl text-green-200 bg-white dark:bg-black rounded-md font-head hover:bg-green-200 hover:text-white dark:hover:text-white dark:hover:bg-green-200"
       >
         {props.text}
       </motion.button>

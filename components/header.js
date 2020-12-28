@@ -11,10 +11,10 @@ export default function Header() {
         className="flex flex-col items-center w-screen h-32 text-2xl bg-white md:h-24 md:items-end md:flex-row justify-evenly font-head md:pb-5 dark:bg-black"
       >
         <nav className="flex items-end hidden -mr-24 justify-evenly space-x-24 md:block">
-          <a className="hover:text-green-200" href="#home">
+          <a className="hover:text-green-200 dark:hover:text-white dark:text-green-200" href="#home">
             Home
           </a>
-          <a className="hover:text-green-200" href="#food">
+          <a className="hover:text-green-200 dark:hover:text-white dark:text-green-200" href="#food">
             Food
           </a>
         </nav>
@@ -27,10 +27,10 @@ export default function Header() {
           />
         </a>
         <nav className="flex items-end hidden -ml-24 justify-evenly space-x-24 md:block">
-          <a className="hover:text-green-200" href="#order">
+          <a className="hover:text-green-200 dark:hover:text-white dark:text-green-200" href="#order">
             Order
           </a>
-          <a className="hover:text-green-200" href="#contact">
+          <a className="hover:text-green-200 dark:hover:text-white dark:text-green-200" href="#contact">
             Contact
           </a>
         </nav>

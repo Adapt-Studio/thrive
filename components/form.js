@@ -26,7 +26,7 @@ export default function Form() {
       />
       <button
         type="submit"
-        className="px-16 py-4 text-2xl text-black bg-green-200 shadow-md dark:text-white hover:text-white dark:hover:text-black rounded-md font-head"
+        className="px-16 py-4 text-2xl text-white bg-green-200 shadow-md dark:text-black hover:text-black dark:hover:text-white rounded-md font-head"
       >
         Send
       </button>

@@ -1,6 +1,6 @@
-import { useEffect } from "react"
-import { motion, useAnimation } from "framer-motion"
-import { useInView } from "react-intersection-observer"
+import {useEffect} from "react"
+import {motion, useAnimation} from "framer-motion"
+import {useInView} from "react-intersection-observer"
 import Layout from "../components/layout"
 import Hero from "../components/hero"
 import Icon from '../components/icon'
