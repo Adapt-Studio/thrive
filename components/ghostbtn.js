@@ -22,7 +22,7 @@ export default function GhostBtn(props) {
               box-shadow: 2px 2px rgba(255,255,255,0.6)
             }
           }
-        `}</style>2
+        `}</style>
     </a>
   )
 }
